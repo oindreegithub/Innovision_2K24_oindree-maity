@@ -1,0 +1,71 @@
+/* CSS to style the portfolio */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+  header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  header h1 {
+    margin-bottom: 1rem;
+    font-size: 2.5rem;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .about, .projects, .contact {
+    margin-bottom: 3rem;
+    padding: 1.5rem;
+    background: rgb(11, 172, 118);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  .projects img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  .projects div {
+    margin-bottom: 1.5rem;
+  }
+  footer {
+    background: #333;
+    color: #37a7ba;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  .social-links a {
+    color: rgb(34, 190, 172);
+    margin: 1 0.5rem;
+    text-decoration: rgb(55, 115, 109);
+    font-size: 2rem;
+  }
+
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    .projects img {
+      max-width: 100%;
+    }
+  }
